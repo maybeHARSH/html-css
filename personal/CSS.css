@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(249, 202, 197);
+    font-style: italic;
+}
+
+h1{
+    background-color: lightgray;
+    color: brown;
+    
+}
+
+h2{
+    background-color: aquamarine;
+    color: gray;
+}
+
+img{
+    height: 200px;
+    width: 167px;
+}
+h3{
+    background-color: antiquewhite;
+    color: black;
+}
+
