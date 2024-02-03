@@ -1,21 +1,49 @@
-body {
-  font-family: "Poppins", sans-serif;
-  margin: 50px 50px 0 50px;
-  background-color: #faf9f6;
-  display: flex;
-  flex-direction: column;
-  min-height: 95vh;
-}
-.main {
-  flex: 1;
+* {
+    font-family: arial;
+    margin: 0;
+    border: border-box;
 }
 
-h1 {
-  font-size: 5rem;
+.nav-bar {
+    height: 50px;
+    background-color: blue;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
 }
 
-footer {
-  text-align: right;
-  color: midnightblue;
+.nav-logo {
+    height:45px;
+    width: 40px;
 }
 
+.logo {
+    background-image: url("Screenshot\ 2023-11-30\ 152100.png");
+    background-size: cover;
+    border: 1.5px solid transparent;
+    height: 45px;
+    width: 40px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid rgb(252, 167, 167);
+}
+
+
+/** SEARCH BAR**/
+
+.nav-search {
+    height: 45px;
+    border: 1.5px solid transparent;
+    width: 70%;
+    background-color: wheat;
+    border-radius: 4px;
+    text-align: left;
+    justify-content:center
+
+}
