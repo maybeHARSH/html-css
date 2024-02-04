@@ -1,49 +1,32 @@
-* {
-    font-family: arial;
-    margin: 0;
-    border: border-box;
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
 }
 
-.nav-bar {
-    height: 50px;
-    background-color: blue;
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
+/* Write your CSS below, don't change the rules above. */
+
+p{
+  color:red
 }
 
-.nav-logo {
-    height:45px;
-    width: 40px;
+.note{
+  font-size: 20px;
 }
 
-.logo {
-    background-image: url("Screenshot\ 2023-11-30\ 152100.png");
-    background-size: cover;
-    border: 1.5px solid transparent;
-    height: 45px;
-    width: 40px;
+#id-selector-demo {
+color:green
 }
 
-.border{
-    border: 1.5px solid transparent;
-}
-
-.border:hover {
-    border: 1.5px solid rgb(252, 167, 167);
+li[value="4"] {
+  color: blue;
 }
 
 
-/** SEARCH BAR**/
+*{
+  text-align: center;
+}
 
-.nav-search {
-    height: 45px;
-    border: 1.5px solid transparent;
-    width: 70%;
-    background-color: wheat;
-    border-radius: 4px;
-    text-align: left;
-    justify-content:center
-
+h2{
+  border:10px solid red
 }
