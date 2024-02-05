@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- 
-TODO: Change the background color for each device
-[lightsalmon] Mobile Devices: 319px — 480px
-[powderblue] iPads and Tablets: 481px — 1200px
-[limegreen] Laptops: 1201px — 1600px
-[seagreen] Desktops: 1601px and more
--->
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-
-  <title>Document</title>
+  <title>CSS Box Model</title>
   <style>
-    body {
-      background-color: aquamarine;
+    div {
+      height: 200px;
+      width: 200px;
     }
 
-    @media (min-width: 319px) and (max-width: 480px) {
-      body {
-        background-color: lightsalmon;
-      }
+    p {
+      margin: 0;
     }
 
-    @media (min-width: 481px) and (max-width: 1200px) {
-      body {
-        background-color: powderblue;
-      }
+    #first {
+      background-color: cadetblue;
+      padding: 20px;
+      border: 10px solid black;
     }
 
-    @media (min-width: 1201px) and (max-width: 1600px) {
-      body {
-        background-color: limegreen;
-      }
+    #second {
+      background-color: gold;
+      border: solid black;
+      border-width: 20px 10px;
+      margin-left: 260px;
     }
 
-    @media (min-width: 1601px) {
-      body {
-        background-color: seagreen;
-      }
+    #third {
+      background-color: indianred;
+      border: 10px solid black;
+      margin-left: 40px;
     }
   </style>
 </head>
 
 <body>
+  <div id="first">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+      id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+      dolor metus, laoreet ac convallis sit amet, efficitur sed dolor. </p>
+  </div>
+  <div id="second">
+
+  </div>
+  <div id="third">
+
+  </div>
 </body>
 
 </html>
